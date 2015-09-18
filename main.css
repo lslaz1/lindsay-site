@@ -1,0 +1,95 @@
+#title {
+	background-image: url('woodimg.png');
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+
+#title, body, html {
+    width:100vw;
+    height:400px;
+    padding:0;
+    margin:0;
+}
+
+#name {
+	position: relative;
+	top: 140px;
+	text-align: center;
+}
+
+#name h1 {
+	font-family: 'Cabin Sketch';
+	font-size: 100px;
+	color: #bbcada;
+}
+
+.header {
+	background-color: #202d3a;
+	padding: 0;
+
+}
+
+.current {
+	background-color: white
+}
+
+.header h2 {
+	color: #bbcada;
+	font-family: 'Jennifer Lynne';
+	font-size: 50px;
+}
+
+.header h2:hover {
+	font-size: 60px;
+}
+
+.content, .header {
+    padding: 5px;
+    text-align: center;
+}
+
+.content {
+    padding: 50px;
+    display: none;
+    background-color: #bbcada;
+}
+
+#bio-info img {
+	padding-bottom: 50px;
+	height: 200px;
+}
+
+#bio-info p {
+	color: #202d3a;
+	font-family: 'Trebuchet MS';
+}
+
+#contact-info {
+	color: #202d3a;
+}
+
+#contact-info p {
+	font-family: 'Jennifer Lynne';
+	font-size: 40px;
+}
+
+#contact-info a {
+	font-family: 'Cabin Sketch';
+	font-size: 30px;
+	text-decoration: none;
+}
+
+#contact-info a:hover {
+	font-size: 35px;
+	color: #202d3a;
+}
+
+figcaption {
+	padding-top: 10px;
+	padding-bottom: 50px;
+	font-family: 'Trebuchet MS';
+	color: #202d3a;
+	font-weight: bold;
+	font-size: 25px;
+}
